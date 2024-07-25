@@ -210,6 +210,7 @@
     <div id="news-section">
         <h2>📰News</h2>
         <DIV><UL>
+            <li>07/2024: 🎉 Our works, <A href="https://arxiv.org/pdf/2407.12622">EfficientGEBD</A> is accepted at <b>ACM MM 2024</b>!</li>
             <li>07/2024: 🎉 Three of our works (<A href="https://arxiv.org/abs/2407.03197">DyFADet</A>, DyBDet, and <A href="https://arxiv.org/abs/2402.19150">Typographic-attack-for-LVLM</A>) are accepted at <b>ECCV 2024</b>!</li>
             <li>06/2024: 🏆 Adadet is selected as <b><font color="red">the highly cited paper in ESI</font></b>!</li>
             <li>06/2023: 🎉 Our work (<A href="https://ieeexplore.ieee.org/abstract/document/10155270">CoViFocus</A>) is accepted at <b><font color="BLACK">TCSVT</font></b>!</li>
@@ -235,8 +236,22 @@
 
         <div id="representative-publications" class="subsection-content active">
             <!-- Insert representative publications here -->
+            <div class="paper-item">
+                <img src="figures/effgebd.jpg" alt="Paper Image">
+                <div class="paper-details">
+                    <h3>
+                        Rethinking the Architecture Design for Efficient Generic Event Boundary Detection
+                        <span class="links">
+                            <a href="https://arxiv.org/pdf/2407.12622" target="_blank">[PDF]</a>
+                            <a href="https://github.com/Ziwei-Zheng/EfficientGEBD/tree/main" target="_blank">[code]</a>
+                        </span>
+                    </h3>
+                    <p>Ziwei Zheng, Zechuan Zhang, Yulin Wang, Shiji Song, Gao Huang, <b>Le Yang</b>*✉.</p>
+                    <p><I>ACM Multimedia (<b>ACM MM</b>), 2024</I></p>
+                    <p>In this paper, we experimentally reexamine the architecture of GEBD models and uncover several surprising findings, demonstrating that some of sophisticated designs are unnecessary for building GEBD models. We also show that the GEBD models using image-domain backbones conducting the spatiotemporal learning in a spatial-then-temporal greedy manner can suffer from a distraction issue, which might be the inefficient villain for the GEBD. </p>
+                </div>
+            </div>
             
-
             <div class="paper-item">
                 <img src="figures/dyfadet.png" alt="Paper Image">
                 <div class="paper-details">
@@ -247,7 +262,7 @@
                             <a href="https://github.com/yangle15/DyFADet-pytorch" target="_blank">[code]</a>
                         </span>
                     </h3>
-                    <p><b>Le Yang</b>✉, Ziwei Zheng, Yizeng Han, Hao Cheng, Shiji Song, Gao Huang, Fan Li.</p>
+                    <p><b>Le Yang</b>*✉, Ziwei Zheng*, Yizeng Han, Hao Cheng, Shiji Song, Gao Huang, Fan Li.</p>
                     <p><I>European Conference on Computer Vision (<b>ECCV</b>), 2024</I></p>
                     <p>We propose a new dynamic feature aggregation module that can simultaneously adapt the kernel shape and parameters based on input. The TAD model based on DFA can boosts the performance by a large margin. </p>
                 </div>
@@ -272,7 +287,7 @@
                 <img src="figures/adadet.png" alt="Paper Image">
                 <div class="paper-details">
                     <h3>
-                        AdaDet: An Adaptive Object Detection System Based on Early-Exit Neural Networks. (<b><font color="black">ESI highly cited paper</font></b>)
+                        AdaDet: An Adaptive Object Detection System Based on Early-Exit Neural Networks.
                         <span class="links">
                             <a href="https://ieeexplore.ieee.org/abstract/document/10121781" target="_blank">[PDF]</a>
                         </span>
@@ -298,7 +313,7 @@
                             </span>
                         </h3>
                         <p>Yizeng Han*, Gao Huang*✉, Shiji Song, <b>Le Yang</b>, Honghui Wang, Yulin Wang</p>
-                        <p><I>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b><font color="red">T-PAMI</font></b>), 2021</I></p>
+                        <p><I>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b><font color="black">T-PAMI</font></b>), 2021</I></p>
                         <p>In this survey, we comprehensively review the rapidly developing area, dynamic neural networks. The important research problems, e.g., architecture design, decision making scheme, and optimization technique, are reviewed systematically. We also discuss the open problems in this field together with interesting future research directions.</p>
                     </div>
             </div>     
